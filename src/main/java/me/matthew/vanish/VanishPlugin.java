@@ -179,7 +179,7 @@ public class VanishPlugin extends JavaPlugin {
      * Check vanish is enabled for the player
      *
      * @param player the player
-     * @return
+     * @return boolean value of player is vanished or not (true/false)
      */
     public boolean vanished(Player player) {
         return vanished.contains(player);
