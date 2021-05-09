@@ -1,0 +1,7 @@
+name: mVanish
+main: me.matthew.vanish.VanishPlugin
+version: 0.1
+author: Matthew
+commands:
+  vanish:
+    aliases: [v]

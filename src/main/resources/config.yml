@@ -1,0 +1,20 @@
+permission:
+  use: "mvanish.command"
+  use-other: "mvanish.command.other"
+message:
+  no-permission: "&cYou don't have permission!"
+  usage: "&cUsage: /%label% <playerName>"
+  enabled: "&eVanish has been enabled."
+  disabled: "&eVanish has been disabled."
+  target-not-found: "&c%targetName% is not online."
+  enabled-executor: "&eVanish has been enabled for &a%targetName%&e."
+  enabled-target: "&eVanish has been enabled by &a%executorName%&e."
+  disabled-executor: "&eVanish has been disabled for &a%targetName%&e."
+  disabled-target: "&eVanish has been disabled by &a%executorName%&e."
+priority:
+  staff:
+    permission: mvanish.staff
+    value: 1
+  developer:
+    permission: mvanish.developer
+    value: 2
