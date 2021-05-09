@@ -142,6 +142,11 @@ public class VanishPlugin extends JavaPlugin {
         return true;
     }
 
+    /**
+     * Returns the priority what the player have
+     * @param player the player
+     * @return player priority or -1 if not specified
+     */
     public int getPriority(Player player) {
         for (String key : priorityMap.keySet()) {
             if (player.hasPermission(key)) {
@@ -151,6 +156,11 @@ public class VanishPlugin extends JavaPlugin {
         return -1;
     }
 
+    /**
+     * Toggle vanish for the player
+     * @param player the player
+     * @param toggle boolean value for toggle (true/false)
+     */
     public void vanish(Player player, boolean toggle) {
         if (toggle && !vanished(player)) {
             vanished.add(player);
@@ -159,10 +169,21 @@ public class VanishPlugin extends JavaPlugin {
         }
     }
 
+    /**
+     * Check vanish is enabled for the player
+     * @param player the player
+     * @return
+     */
     public boolean vanished(Player player) {
         return vanished.contains(player);
     }
 
+    /**
+     * Returns the message from config.yml by path
+     * @param path location of message
+     * @return the message or null
+     * @throws NullPointerException if message cannot be found
+     */
     private String getMessage(String path) {
         return ChatColor.translateAlternateColorCodes('&', getConfig().getString("message." + path));
     }
