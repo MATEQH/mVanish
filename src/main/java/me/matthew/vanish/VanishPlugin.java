@@ -148,6 +148,7 @@ public class VanishPlugin extends JavaPlugin {
 
     /**
      * Returns the priority what the player have
+     *
      * @param player the player
      * @return player priority or -1 if not specified
      */
@@ -162,6 +163,7 @@ public class VanishPlugin extends JavaPlugin {
 
     /**
      * Toggle vanish for the player
+     *
      * @param player the player
      * @param toggle boolean value for toggle (true/false)
      */
@@ -175,6 +177,7 @@ public class VanishPlugin extends JavaPlugin {
 
     /**
      * Check vanish is enabled for the player
+     *
      * @param player the player
      * @return
      */
@@ -184,6 +187,7 @@ public class VanishPlugin extends JavaPlugin {
 
     /**
      * Returns the message from config.yml by path
+     *
      * @param path location of message
      * @return the message or null
      * @throws NullPointerException if message cannot be found

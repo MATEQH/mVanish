@@ -9,6 +9,7 @@ public class ReflectionUtil {
 
     /**
      * Post runnable on main thread
+     *
      * @param runnable the runnable
      */
     public static void postToMainThread(Runnable runnable) {
@@ -23,6 +24,7 @@ public class ReflectionUtil {
 
     /**
      * Returns the class by name
+     *
      * @param className the class name
      * @return the class
      */
@@ -37,6 +39,7 @@ public class ReflectionUtil {
 
     /**
      * Returns the method by name
+     *
      * @param clazz the class
      * @param methodName method name
      * @param object invoke object
@@ -54,6 +57,7 @@ public class ReflectionUtil {
 
     /**
      * Returns the field by name
+     *
      * @param clazz the class
      * @param fieldName field name
      * @return field as object
