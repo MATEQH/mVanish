@@ -13,9 +13,13 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
+/**
+ * Main class of plugin
+ *
+ * @author Matthew
+ */
 public class VanishPlugin extends JavaPlugin {
 
     @Getter
